@@ -86,7 +86,7 @@ Write-Host ' - A USB drive, enter its drive letter + : (D: or d:)'
 Write-Host ' - A USB drive with both bit versions, enter D:\x86 or D:\x64'
 Write-Host ' - ISO files copied to folder, enter path (F:\MyISOFiles)'
 Write-Host ' - Dual bit version ISO copied to folder, enter path with bit version'
-Write-Host '   (W:\ISOFolder\x86 or W:\ISOFolder)' 
+Write-Host '   (W:\ISOFolder\x86 or W:\ISOFolder\x64)' 
 Write-Host
 
 $ISOFolder = Read-Host -Prompt ' Enter source, press Enter'
